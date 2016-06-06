@@ -1,30 +1,184 @@
-.wrapper { 
-   
+
+.container { 
+    width: 960px;
+    background: #FFF;
+    background-image: initial;
+    background-position: initial;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left:auto;
+}
+
+.header {
+    background-color: #FFFFFF;
     width: 600px;
-    height: 100px;
-    margin: 10px;
-    background: light gray
-   
-    font-family: "Times New Roman", Times, serif;
-    font-size: 46px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+table[Attributes Style] {
+    width: 598px;
+    height: 95px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-spacing: 1px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.tittel { 
+   font-family: Georgia, "Times New Roman", Times, serif;
+       font-size: 15pt;
+    color: #666; 
+font-weight: lighter;
     text-align: center
+}
+td[Attributes Style] {
+    height: 28px;
+    text-align: -webkit-center;
+    vertical-align: bottom;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
 
+ 
+.undertittel { 
+    font-family: "Courier New", Couried, monospace;
+    font-size: 10pt;
+    color: #666;
+    font-weight: lighter;
+}
+
+.content {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 8pt;
+    color: #666;
+    background-color: #FFF;
 }
 
 
-.menu  { 
-    text-align: right;
-    
-    border-bottom: thick dotted yellow;
+.body {
+    margin: 0;
+    padding: 0;
+    color: #EDEDED;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    background-color: #FFFFFF;
+}
+.Accordion {
+    overflow: visible;
+    background-color: #FFF;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    border-bottom-color: #FFF;
+    border-left-color: #FFF;
+    outline: none;
+}
+.AccordionPanel {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+    color: #666;
+    position: relative;
+    visibility: visible;
+}
 
-    
+
+
+.AccordionPanelTab {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 2px;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    border-top-width: 5px;
+    border-bottom-width: 1px;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    border-bottom-color: #FFF;
+    border-left-color: #FFF;
+    color: #333333;
+    line-height: normal;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: normal;
+    font-size: 9pt;
 }
-   .boxed {
-  border: solid black;
-       width: 250px;
-       height: 450px;
-       margin-left: 200px;
-       margin-top: 70px;
-       
-    
+
+.AccordionPanelContent {
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    background-color: #FFF;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    border-bottom-color: #FFF;
+    border-left-color: #FFF;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 9pt;
+    color: #999;
 }
+
